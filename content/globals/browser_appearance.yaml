@@ -10,6 +10,7 @@ data:
   apple_mobile_web_app: false
   apple_status_bar_black: false
   android_mobile_web_app: false
-  use_favicons: false
-  safari_color: '#263E72'
+  use_favicons: true
+  svg: UmbreallaLog.svg
+  safari_color: '#BBA25F'
   ios_color: '#BCBCCB'
