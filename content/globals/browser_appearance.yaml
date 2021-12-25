@@ -6,10 +6,11 @@ data:
   use_theme_color: true
   use_theme_color_dark_mode: true
   theme_color: '#4BAABD'
-  theme_color_dark_mode: '#382929'
+  theme_color_dark_mode: '#FF0000'
   apple_mobile_web_app: false
   apple_status_bar_black: false
   android_mobile_web_app: false
-  use_favicons: false
-  safari_color: '#000000'
-  ios_color: '#FFFFFF'
+  use_favicons: true
+  svg: icon.svg
+  safari_color: '#263E72'
+  ios_color: '#CBBCBC'

@@ -1,10 +1,14 @@
 tree:
   -
+    id: 02537c9c-c47c-4b9b-998c-c7fb7f8697f6
     entry: home
   -
+    id: 8b018867-eee4-47cd-99f5-6234d47a3620
     entry: 6b995156-142b-43d6-be4e-6c260ea90d37
     children:
       -
+        id: 20092df0-406e-4f7f-a082-4fa0a9f8b528
         entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
       -
+        id: 78f14813-b244-4905-b542-2dbdefcae140
         entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
