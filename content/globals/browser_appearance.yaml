@@ -14,3 +14,6 @@ data:
   svg: icon.svg
   safari_color: '#263E72'
   ios_color: '#CBBCBC'
+  safari_mask_icon: icon-1640441193.svg
+  apple_touch_icon: icon-1640441191.svg
+  android_chrome: icon-1640441201.svg
