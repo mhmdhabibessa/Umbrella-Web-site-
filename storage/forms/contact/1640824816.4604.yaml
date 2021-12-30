@@ -1,0 +1,5 @@
+name: Tests
+email: test@gmail.com
+message_body: 'this is a test body of message'
+consent:
+  - 'yes'
