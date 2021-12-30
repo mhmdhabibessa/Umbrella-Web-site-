@@ -1354,6 +1354,9 @@ html {
 .h-8 {
   height: 2rem;
 }
+.h-1 {
+  height: 0.25rem;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1389,6 +1392,9 @@ html {
 }
 .w-40 {
   width: 10rem;
+}
+.w-1 {
+  width: 0.25rem;
 }
 .max-w-\[40ch\] {
   max-width: 40ch;
@@ -1754,9 +1760,6 @@ html {
 .pb-12 {
   padding-bottom: 3rem;
 }
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
 .text-left {
   text-align: left;
 }
@@ -1909,6 +1912,10 @@ html {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(251 191 36 / var(--tw-text-opacity));
+}
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 .underline {
   -webkit-text-decoration-line: underline;
@@ -2516,6 +2523,14 @@ html {
     margin-bottom: 4rem;
   }
 
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
   .lg\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
@@ -2526,6 +2541,14 @@ html {
 
   .lg\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
   }
 
   .lg\:px-8 {

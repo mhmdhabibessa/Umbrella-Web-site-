@@ -34,6 +34,7 @@ module.exports = {
         'degree#006674' : '#006674' ,
         'degree#006674' :'#006674' , 
         'servecesBackground' : '#55C6D2' ,
+         'serveseCard' : ' #49938b ' ,
 
         
       },
