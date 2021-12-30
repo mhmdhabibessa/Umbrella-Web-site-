@@ -25,3 +25,4 @@ fields:
       display: Form
       validate:
         - required
+      instructions_position: above

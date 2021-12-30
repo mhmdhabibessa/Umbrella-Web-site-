@@ -3,10 +3,11 @@
 	@desc The sites main desktop navigation rendered on each page. It's 2 levels deep by default and uses AlpineJS for interactivity.
 #}}
 
-<!-- /navigation/_main_desktop.antlers.html -->
+<!-- /navigation/_main_desktop.antlers.html -->'
+
 <nav class="hidden md:block">
     <ul class="flex items-center space-x-8">
-        {{ nav:main max_depth="2" include_home="true" }}
+        {{  nav:main  max_depth="2" include_home="true" }}
             <li
                 {{ if children }}
                     x-data="{ subnavOpen: false }"
@@ -17,9 +18,9 @@
             >
                 <a
                     class="
-                        p-1 -m-1 flex items-center font-bold text-xs uppercase tracking-wide hover:text-primary focus:outline-none focus-visible:ring-2 ring-primary
+                    text-ColorText rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2
                         {{ is_current || is_parent
-                            ? 'text-primary'
+                            ? 'text-ColorText'
                             : 'text-neutral' }}
                     "
                     {{ if children }}
@@ -57,7 +58,7 @@
                                     class="
                                         whitespace-nowrap py-2 px-1 -mx-1 block text-xs font-bold hover:text-primary focus:outline-none focus-visible:ring-2 ring-primary
                                         {{ is_current || is_parent
-                                            ? 'text-primary'
+                                            ? 'text-ColorText'
                                             : 'text-neutral' }}
                                     "
                                     href="{{ url }}"

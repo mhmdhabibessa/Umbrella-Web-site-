@@ -17,7 +17,7 @@ fields:
             -
               import: article
         call_to_action:
-          display: Call to action
+          display: 'Call to action'
           instructions: 'Show a call to action.'
           fields:
             -
@@ -35,8 +35,186 @@ fields:
             -
               import: form
         link_blocks:
-          display: Link blocks
+          display: 'Link blocks'
           instructions: 'Show link blocks.'
           fields:
             -
               import: link_blocks
+        text_with_right_image:
+          display: 'text with right image'
+          fields:
+            -
+              handle: article
+              field:
+                always_show_set_button: false
+                buttons:
+                  - h2
+                  - h3
+                  - bold
+                  - italic
+                  - unorderedlist
+                  - orderedlist
+                  - removeformat
+                  - quote
+                  - anchor
+                  - image
+                  - table
+                save_html: false
+                toolbar_mode: fixed
+                link_noopener: false
+                link_noreferrer: false
+                target_blank: false
+                reading_time: false
+                fullscreen: true
+                allow_source: true
+                enable_input_rules: true
+                enable_paste_rules: true
+                antlers: false
+                display: Article
+                type: bard
+                icon: bard
+                listable: hidden
+                instructions_position: above
+            -
+              handle: image
+              field:
+                mode: list
+                container: assets
+                restrict: false
+                allow_uploads: true
+                show_filename: true
+                max_files: 1
+                display: image
+                type: assets
+                icon: assets
+                listable: hidden
+                instructions_position: above
+        about_us:
+          display: 'about us'
+          fields:
+            -
+              handle: bard
+              field:
+                always_show_set_button: false
+                buttons:
+                  - h2
+                  - h3
+                  - bold
+                  - italic
+                  - unorderedlist
+                  - orderedlist
+                  - removeformat
+                  - quote
+                  - anchor
+                  - image
+                  - table
+                save_html: false
+                toolbar_mode: fixed
+                link_noopener: false
+                link_noreferrer: false
+                target_blank: false
+                reading_time: false
+                fullscreen: true
+                allow_source: true
+                enable_input_rules: true
+                enable_paste_rules: true
+                antlers: false
+                display: Bard
+                type: bard
+                icon: bard
+                listable: hidden
+                instructions_position: above
+            -
+              handle: assets
+              field:
+                mode: list
+                container: assets
+                restrict: false
+                allow_uploads: true
+                show_filename: true
+                max_files: 1
+                display: Assets
+                type: assets
+                icon: assets
+                listable: hidden
+                instructions_position: above
+        services:
+          display: Services
+          fields:
+            -
+              handle: article
+              field:
+                always_show_set_button: false
+                sets:
+                  new_set:
+                    display: 'New Set'
+                    fields: {  }
+                buttons:
+                  - h2
+                  - h3
+                  - bold
+                  - italic
+                  - unorderedlist
+                  - orderedlist
+                  - removeformat
+                  - quote
+                  - anchor
+                  - image
+                  - table
+                container: assets
+                save_html: false
+                toolbar_mode: fixed
+                link_noopener: false
+                link_noreferrer: false
+                target_blank: false
+                reading_time: false
+                fullscreen: true
+                allow_source: true
+                enable_input_rules: true
+                enable_paste_rules: true
+                antlers: false
+                display: Article
+                type: bard
+                icon: bard
+                listable: hidden
+                instructions_position: above
+                link_collections:
+                  - pages
+            -
+              handle: icons_services
+              field:
+                input_type: text
+                antlers: false
+                display: 'Icons Services'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+            -
+              handle: title_services
+              field:
+                input_type: text
+                antlers: false
+                display: 'Title services'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+        key_clint:
+          display: 'key Clint'
+          fields:
+            -
+              handle: assets
+              field:
+                mode: list
+                container: assets
+                restrict: false
+                allow_uploads: true
+                show_filename: true
+                max_files: 1
+                display: Assets
+                type: assets
+                icon: assets
+                listable: hidden
+                instructions_position: above
+      instructions_position: above

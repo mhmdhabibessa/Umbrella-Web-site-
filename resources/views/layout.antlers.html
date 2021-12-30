@@ -11,14 +11,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <link rel="stylesheet" href="{{ mix src='css/site.css' }}">
+        <link rel="stylesheet" href="http://use.typekit.net/krt0smt.css">
         <script src="{{ mix src='/js/site.js' }}" defer></script>
-
+        <script src="https://kit.fontawesome.com/714e920057.js" crossorigin="anonymous"></script>
         {{# Replace the following line with the SEO Pro or Aardvark SEO tag if you want to use an addon for SEO. Also remove the seo section in you page blueprint.#}}
         {{ partial:snippets/seo }}
 
         {{ partial:snippets/browser_appearance }}
     </head>
-    <body class="min-h-screen bg-creme-light text-neutral selection:bg-primary selection:text-white">
+    <body class="min-h-screen bg-backgroundBody text-neutral selection:bg-seklectionColor selection:text-white">
+        
         {{ partial:snippets/noscript }}
         {{ partial:navigation/skip_to_content }}
         {{ partial:components/toolbar }}

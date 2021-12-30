@@ -5,12 +5,12 @@ data:
   disable_address_detection: false
   use_theme_color: true
   use_theme_color_dark_mode: true
-  theme_color: '#4BAABD'
-  theme_color_dark_mode: '#008BFF'
+  theme_color: '#1C637C'
+  theme_color_dark_mode: '#121A33'
   apple_mobile_web_app: false
-  apple_status_bar_black: false
+  apple_status_bar_black: true
   android_mobile_web_app: false
   use_favicons: true
-  svg: UmbreallaLog.svg
+  svg: logo.svg
   safari_color: '#BBA25F'
   ios_color: '#BCBCCB'

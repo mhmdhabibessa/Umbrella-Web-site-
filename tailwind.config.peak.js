@@ -7,6 +7,7 @@
 
 const plugin = require('tailwindcss/plugin')
 const colors = require('tailwindcss/colors')
+const { backgroundColor } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
@@ -22,6 +23,19 @@ module.exports = {
         yellow: colors.amber,
         // Success styling colors.
         green: colors.green,
+
+        'navColor': '#006674',
+        'backgroundBody':'#C0E6EE', 
+        'backgroundMenu' :'#4BAABD',
+        'seklectionColor' :'#005662',
+        'backgroundfooter':'#091721', 
+        'backgroundheadeer' :'#123C53',
+        'ColorText' :'#4BAABD' ,
+        'degree#006674' : '#006674' ,
+        'degree#006674' :'#006674' , 
+        'servecesBackground' : '#55C6D2' ,
+
+        
       },
       spacing: {
         // Used for the mobile navigation toggle.
