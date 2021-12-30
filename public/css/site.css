@@ -1297,9 +1297,6 @@ html {
 .mb-8 {
   margin-bottom: 2rem;
 }
-.mt-3 {
-  margin-top: 0.75rem;
-}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -1980,21 +1977,8 @@ html {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
 }
-.transition {
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 300ms;
-}
 .duration-200 {
   transition-duration: 200ms;
-}
-.duration-300 {
-  transition-duration: 300ms;
-}
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .selection\:bg-seklectionColor *::-moz-selection {
   --tw-bg-opacity: 1;
@@ -2436,10 +2420,6 @@ html {
 
   .md\:w-80 {
     width: 20rem;
-  }
-
-  .md\:w-32 {
-    width: 8rem;
   }
 
   .md\:grid-cols-12 {
