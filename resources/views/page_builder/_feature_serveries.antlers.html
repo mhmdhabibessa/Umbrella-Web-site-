@@ -17,20 +17,21 @@
                 
                 <div class="mt-8 xl:mt-12 lg:flex lg:items-center">
                     <div class="w-full lg:w-1/2 grid grid-cols-1 gap-8 xl:gap-16 md:grid-cols-2">
-                        {{ collection:services }}
+                        {{feature}}                    
                         <div class="space-y-3">
                             <span class="inline-block p-3 text-ColorText bg-ColorTex rounded-xl dark:text-white dark:bg-blue-500">
-                                {{icons_services}}
+
+                                 {{icon_services}}
                             </span>
 
-                            <h1 class="text-2xl font-semibold text-ColorText capitalize dark:text-white">{{title}}</h1>
+                            <h1 class="text-2xl font-semibold text-ColorText capitalize dark:text-white">{{title_services}}</h1>
 
-                           <p class="text-2xl font-semibold text-red-500 capitalize dark:text-white">
+                           <p class="text-sm text-white px-2 mr-1">
 
-                                {{article}}
+                                {{article_about_serveries}}
                            </p>
                         </div>
-                        {{/collection:services}}
+                        {{/feature}}
                         
                     </div>
 

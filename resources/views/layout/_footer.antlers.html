@@ -4,49 +4,39 @@
 #}}
 
 
-
-<div>
-
   <footer class="bg-backgroundfooter" >
   <div class="max-w-screen-xl mx-auto mb-12 lg:mb-16 ">
     {{ yield:reset_cookie_consent }}
-    <img class="p-2 -m-2 hover:scale-70 hover:rotate-2 motion-safe:transition-transform focus:outline-none focus-visible:ring-2" src="/visuals/logo.svg" alt="Umbrella logo">
+    <img 
+    width="100px"
+    class="p-2 -m-2 hover:scale-70  hover:rotate-2 motion-safe:transition-transform focus:outline-none focus-visible:ring-2" src="/visuals/logo.svg" alt="Umbrella logo">
   </div>
   <div class="max-w-screen-xl mx-auto ">
     <div class="grid grid-cols-8 md:grid-cols-9  lg:grid-cols-8  divide-gray-200 divide-y-2 md:divide-x-2 md:divide-y-0 md:-mx-8">
       <div class="col-span-8 md:col-span-3 lg:col-span-2 md:px-8 py-4 md:py-0">
         <h5 class="text-xl font-semibold text-backgroundBody">Umbrella </h5>
         <nav class="mt-4">
+          {{nav:main}}
           <ul class="space-y-2">
             <li>
-              <a href="#" class="font-normal text-base hover:text-gray-400">Landingpages</a>
+              <a href="#" class="font-normal text-base hover:text-gray-400">{{title}}</a>
             </li>
-            <li>
-              <a href="#" class="font-normal text-base hover:text-gray-400">Features</a>
-            </li>
-            <li>
-              <a href="#" class="font-normal text-base hover:text-gray-400">Download brochure</a>
-            </li>
+           
           </ul>
+          {{/nav:main}}
         </nav>
       </div>
       <div class="col-span-8 md:col-span-3 lg:col-span-3 md:px-8 py-4 md:py-0">
         <h5 class="text-xl font-semibold text-backgroundBody">Industries</h5>
         <nav class="mt-4">
+          {{nav:main}}
           <ul class="grid lg:grid-cols-2">
             <li class="mb-2">
-              <a href="#" class="font-normal text-base hover:backgroundBody">Employment</a>
+              <a href="#" class="font-normal text-base hover:backgroundBody">{{title}}</a>
             </li>
-            <li class="mb-2">
-              <a href="#" class="font-normal text-base hover:backgroundBody">Company</a>
-            </li>
-            <li class="mb-2">
-              <a href="#" class="font-normal text-base hover:backgroundBody">Childcare</a>
-            </li>
-            <li class="mb-2">
-              <a href="#" class="font-normal text-base hover:backgroundBody">Download brochure</a>
-            </li>
+            
           </ul>
+          {{/nav:main}}
         </nav>
       </div>
       <div class="col-span-8 md:col-span-3 lg:col-span-3 md:px-8 py-4 md:py-0">
@@ -73,3 +63,6 @@
     </div>
    
   </footer>
+
+
+  
