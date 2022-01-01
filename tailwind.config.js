@@ -17,7 +17,7 @@ module.exports = {
   ],
   // Uncomment the next line to enable class based dark mode: https://peak.studio1902.nl/features/dark-mode.html.
   // darkMode: 'class',
-  mode: 'jit',
+  // mode: 'jit',
   // Configure Purge CSS.
   content: [
     './resources/views/**/*.html',

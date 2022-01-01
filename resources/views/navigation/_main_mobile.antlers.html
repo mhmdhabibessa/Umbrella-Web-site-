@@ -6,28 +6,31 @@
 <!-- /navigation/_main_mobile.antlers.html -->
 <nav
     x-data="{ mobileNavOpen: false }"
-    class="md:hidden"
+    class="md:hidden bg-bg-HeaderColer"
 >
-    <button
+   
+    <button 
         @click.prevent="mobileNavOpen = !mobileNavOpen"
-        class="fixed bottom-0 right-0 z-20 flex items-center justify-center w-16 h-16 mr-8 text-xs font-bold text-white mb-safe bg-backgroundMenu focus:outline-none focus-visible:ring-2 ring-ColorText ring-offset-2"
+        class="block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-4"
         :aria-label="
         mobileNavOpen
             ? '{{ trans:strings.nav_close }}'
             : '{{ trans:strings.nav_open }}'
         "
-        :aria-expanded="mobileNavOpen"
-        x-text="mobileNavOpen ? '{{ trans:strings.close }}' : '{{ trans:strings.menu }}'"
-    ></button>
+    
+        >
+        <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+      
+    </button>
 
     <div
-        class="fixed inset-0 z-10 pt-8 px-8 pb-12 flex flex-col justify-end bg-white"
+        class="fixed inset-0 z-10 pt-8 px-8 pb-12 flex flex-col justify-end bg-backgroundBody"
         x-show="mobileNavOpen"
         x-trap.inert.noscroll="mobileNavOpen"
         x-cloak
     >
         <ul class="flex flex-col py-2 space-y-8 overflow-auto">
-            {{ nav:collection:pages max_depth="2" include_home="true" }}
+            {{ nav:main max_depth="2" include_home="true" }}
                 <li
                     {{ if children }}
                         x-data="{ mobileNavSubnavOpen: false }"
@@ -78,7 +81,7 @@
                         </ul>
                     {{ /if }}
                 </li>
-            {{ /nav:collection:pages }}
+            {{ /nav:main }}
         </ul>
     </div>
 </nav>

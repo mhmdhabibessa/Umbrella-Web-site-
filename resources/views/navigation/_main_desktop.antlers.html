@@ -5,7 +5,8 @@
 
 <!-- /navigation/_main_desktop.antlers.html -->'
 
-<nav class="hidden md:block">
+
+<nav class="hidden md:block ">
     <ul class="flex items-center space-x-8">
         {{  nav:main  max_depth="2" include_home="true" }}
             <li
@@ -18,7 +19,7 @@
             >
                 <a
                     class="
-                    text-ColorText rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2
+                    text-ColorText rounded  hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2
                         {{ is_current || is_parent
                             ? 'text-ColorText'
                             : 'text-neutral' }}
@@ -56,7 +57,7 @@
                             <li class="">
                                 <a
                                     class="
-                                        whitespace-nowrap py-2 px-1 -mx-1 block text-xs font-bold hover:text-primary focus:outline-none focus-visible:ring-2 ring-primary
+                                        whitespace-nowrap py-2 px-1 -mx-1 block text-xs font-bold hover:text-backgroundBody focus:outline-none focus-visible:ring-2 ring-primary
                                         {{ is_current || is_parent
                                             ? 'text-ColorText'
                                             : 'text-neutral' }}

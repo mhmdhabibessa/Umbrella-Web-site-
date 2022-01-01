@@ -29,7 +29,7 @@ module.exports = {
         'backgroundMenu' :'#4BAABD',
         'seklectionColor' :'#005662',
         'backgroundfooter':'#091721', 
-        'backgroundheadeer' :'#123C53',
+        'HeaderColer' :'#081616',
         'ColorText' :'#4BAABD' ,
         'degree#006674' : '#006674' ,
         'degree#006674' :'#006674' , 
