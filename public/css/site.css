@@ -1647,9 +1647,9 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
-.bg-backgroundfooter {
+.bg-TestColor {
   --tw-bg-opacity: 1;
-  background-color: rgb(9 23 33 / var(--tw-bg-opacity));
+  background-color: rgb(192 230 238 / var(--tw-bg-opacity));
 }
 .bg-HeaderColer {
   --tw-bg-opacity: 1;
@@ -1658,6 +1658,10 @@ html {
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+.bg-backgroundfooter {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 23 33 / var(--tw-bg-opacity));
 }
 .fill-current {
   fill: currentColor;
