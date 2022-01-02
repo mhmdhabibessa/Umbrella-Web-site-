@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9cc7b2d7-a762-47c2-97c6-ee914f9d0e16
-updated_at: 1641079609
+updated_at: 1641081568
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -26,7 +26,7 @@ page_builder:
             text: Umbrella
           -
             type: text
-            text: ' Enterprises Management is an'
+            text: 'Enterprises Management is an'
       -
         type: paragraph
         content:
@@ -80,7 +80,7 @@ page_builder:
             text: Umbrella
           -
             type: text
-            text: ' offers a variety of restaurant'
+            text: 'offers a variety of restaurant'
       -
         type: paragraph
         content:
@@ -99,6 +99,10 @@ page_builder:
           -
             type: text
             text: growth.
+    paragraph: |-
+      Umbrella Enterprises Management is an integrated organization established by young and experienced individuals to modernize and simplify the F&B industry, especially for small and medium businesses.
+      We are here to help you build, start and run your own concept with the most efficient and professional practices.
+      Umbrella offers a variety of restaurant management  services that can satisfy your business needs to achieve better growth.
   -
     article:
       -

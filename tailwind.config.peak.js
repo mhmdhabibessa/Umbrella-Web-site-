@@ -24,8 +24,9 @@ module.exports = {
         // Success styling colors.
         green: colors.green,
 
+        'colortitle' :'#071110',
         'navColor': '#006674',
-        'backgroundBody':'#C0E6EE', 
+        'backgroundBody':'#123C53', 
         'backgroundMenu' :'#4BAABD',
         'seklectionColor' :'#005662',
         'backgroundfooter':'#091721', 
@@ -35,6 +36,7 @@ module.exports = {
         'degree#006674' :'#006674' , 
         'servecesBackground' : '#55C6D2' ,
          'serveseCard' : ' #49938b ' ,
+         'TestColor' :'#C0E6EE' ,
 
         
       },
