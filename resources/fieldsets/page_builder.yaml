@@ -244,6 +244,22 @@ fields:
                 icon: grid
                 listable: hidden
                 instructions_position: above
+            -
+              handle: image_services
+              field:
+                mode: list
+                container: assets
+                restrict: false
+                allow_uploads: true
+                show_filename: true
+                max_files: 1
+                display: 'Image Services'
+                type: assets
+                icon: assets
+                listable: hidden
+                instructions_position: above
+                validate:
+                  - required
         clint:
           display: Clint
           fields:

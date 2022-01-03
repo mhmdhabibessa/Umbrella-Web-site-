@@ -11,7 +11,7 @@
    
     <button 
         @click.prevent="mobileNavOpen = !mobileNavOpen"
-        class="block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-4"
+        class="block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-2"
         :aria-label="
         mobileNavOpen
             ? '{{ trans:strings.nav_close }}'
@@ -24,7 +24,7 @@
     </button>
 
     <div
-        class="fixed inset-0 z-10 pt-8 px-8 pb-12 flex flex-col justify-end bg-backgroundBody"
+       
         x-show="mobileNavOpen"
         x-trap.inert.noscroll="mobileNavOpen"
         x-cloak
@@ -38,7 +38,7 @@
                     class="leading-none"
                 >
                     <a
-                        class="w-full flex items-center space-x-1 font-bold uppercase tracking-wide hover:text-ColorText {{ is_current || is_parent ? 'text-ColorText' : 'text-neutral' }}"
+                        class="w-full flex items-center space-x-1 font-bold uppercase tracking-wide hover:text-ColorText {{ is_current || is_parent ? 'text-ColorText' : 'text-TestColor' }}"
                         {{ if children }}
                             href="#"
                             @click.prevent="mobileNavSubnavOpen = !mobileNavSubnavOpen"

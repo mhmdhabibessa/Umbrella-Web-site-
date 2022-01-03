@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9cc7b2d7-a762-47c2-97c6-ee914f9d0e16
-updated_at: 1641081568
+updated_at: 1641228329
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -151,6 +151,7 @@ page_builder:
           will take this headache from you and will ensure finding the best suitable staff and train them for your concept.
     type: feature_serveries
     enabled: true
+    image_services: Services.PNG
   -
     clint:
       -
