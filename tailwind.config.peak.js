@@ -23,7 +23,7 @@ module.exports = {
         yellow: colors.amber,
         // Success styling colors.
         green: colors.green,
-
+         'title' : '#45dfd0' , 
         'colortitle' :'#071110',
         'navColor': '#006674',
         'backgroundBody':'#123C53', 
