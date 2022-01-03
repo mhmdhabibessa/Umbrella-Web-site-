@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9cc7b2d7-a762-47c2-97c6-ee914f9d0e16
-updated_at: 1640787526
+updated_at: 1641245342
 page_builder:
   -
     bard:

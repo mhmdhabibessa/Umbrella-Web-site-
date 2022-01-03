@@ -19,7 +19,7 @@
             >
                 <a
                     class="
-                    text-ColorText rounded  hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2
+                        text-ColorText rounded  hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2
                         {{ is_current || is_parent
                             ? 'text-ColorText'
                             : 'text-neutral' }}
@@ -32,7 +32,7 @@
                             : '{{ trans:strings.subnav_open }}'"
                         :aria-expanded="subnavOpen"
                     {{ else }}
-                        href="{{ url }}"
+                        href="#about"
                     {{ /if }}
                 >
                     {{ title }}

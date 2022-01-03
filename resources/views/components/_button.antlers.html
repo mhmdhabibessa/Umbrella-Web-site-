@@ -10,10 +10,10 @@
         class="font-bold focus:outline-none focus-visible:ring focus-visible:ring-offset-2 {{ class }}
             {{ if button_type == 'inline' }}
                 underline motion-safe:transition
-                {{ inverted ? 'text-white focus-visible:ring-white' : 'text-backgroundBody focus-visible:ring-backgroundfooter' }}
+                {{ inverted ? 'text-white focus-visible:ring-white' : 'text-TestColor focus-visible:ring-TestColor' }}
             {{ else }}
                 inline-flex items-center py-3 px-4 border-2 leading-none uppercase tracking-widest text-sm no-underline select-none whitespace-nowrap motion-safe:transition
-                {{ inverted ? 'border-white text-white focus-visible:ring-white' : 'border-backgroundBody text-backgroundBody focus-visible:ring-backgroundBody' }}
+                {{ inverted ? 'border-white text-white focus-visible:ring-white' : 'text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2' }}
             {{ /if }}
         "
         {{ unless faux }}
