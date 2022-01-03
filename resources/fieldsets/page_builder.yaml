@@ -179,23 +179,6 @@ fields:
                 icon: text
                 listable: hidden
                 instructions_position: above
-        key_clint:
-          display: 'key Clint'
-          fields:
-            -
-              handle: assets
-              field:
-                mode: list
-                container: assets
-                restrict: false
-                allow_uploads: true
-                show_filename: true
-                max_files: 1
-                display: Assets
-                type: assets
-                icon: assets
-                listable: hidden
-                instructions_position: above
         feature_serveries:
           display: 'Feature Serveries'
           fields:
@@ -260,6 +243,20 @@ fields:
                 instructions_position: above
                 validate:
                   - required
+            -
+              handle: title
+              field:
+                input_type: text
+                antlers: false
+                default: 'Our Services'
+                display: title
+                type: text
+                icon: text
+                instructions: 'Our Services Title or Another title'
+                listable: hidden
+                instructions_position: above
+                validate:
+                  - required
         clint:
           display: Clint
           fields:
@@ -292,6 +289,19 @@ fields:
                 instructions: 'Add Image Logo Clint'
                 listable: hidden
                 instructions_position: above
+            -
+              handle: title
+              field:
+                input_type: text
+                antlers: false
+                default: 'Key Clint'
+                display: 'Title section'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+                validate:
+                  - required
         new_set:
           display: 'New Set'
           fields: {  }
