@@ -37,7 +37,7 @@ module.exports = {
         'servecesBackground' : '#55C6D2' ,
          'serveseCard' : ' #49938b ' ,
          'TestColor' :'#C0E6EE' ,
-
+          'errorPage' : '#57b1a5', 
         
       },
       spacing: {
