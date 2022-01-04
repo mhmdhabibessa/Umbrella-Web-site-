@@ -6,3 +6,7 @@ tree:
     id: 50675ff7-f795-4f65-94fb-b8424944b05a
     title: about-us
     url: '#about'
+  -
+    id: b373ce0d-2a6a-4ba7-8cf2-fd60f97fdcb1
+    title: 'contact us'
+    url: '#contact'

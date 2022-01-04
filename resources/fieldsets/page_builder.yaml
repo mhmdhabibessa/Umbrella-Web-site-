@@ -34,6 +34,16 @@ fields:
           fields:
             -
               import: form
+            -
+              handle: section_id
+              field:
+                input_type: text
+                antlers: false
+                display: 'Section ID'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
         link_blocks:
           display: 'Link blocks'
           instructions: 'Show link blocks.'
