@@ -257,6 +257,16 @@ fields:
                 instructions_position: above
                 validate:
                   - required
+            -
+              handle: section_id
+              field:
+                input_type: text
+                antlers: false
+                display: 'Section ID'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
         clint:
           display: Clint
           fields:
@@ -304,5 +314,8 @@ fields:
                   - required
         new_set:
           display: 'New Set'
+          fields: {  }
+        '':
+          display: null
           fields: {  }
       instructions_position: above

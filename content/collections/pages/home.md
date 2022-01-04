@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 9cc7b2d7-a762-47c2-97c6-ee914f9d0e16
-updated_at: 1641229092
+updated_at: 1641327376
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -153,6 +153,7 @@ page_builder:
     enabled: true
     image_services: Services.PNG
     title: 'Our Services'
+    section_id: about
   -
     clint:
       -

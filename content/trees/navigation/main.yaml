@@ -3,11 +3,6 @@ tree:
     id: 02537c9c-c47c-4b9b-998c-c7fb7f8697f6
     entry: home
   -
-    id: 91337001-9860-47ae-b565-a6ca202c7eed
-    entry: a478495a-a279-428a-9d12-0a16f32a9173
-  -
-    id: f49571ad-3490-4a05-9083-ef2dcbc0208d
-    entry: 5cb61016-a257-43a0-8faa-9477feb90785
-  -
-    id: b860489a-19c4-4750-9d7c-1f9a8ad725a9
-    entry: dc00bf47-b1ad-4f1e-8340-591c236ab3c2
+    id: 50675ff7-f795-4f65-94fb-b8424944b05a
+    title: about-us
+    url: '#about'
