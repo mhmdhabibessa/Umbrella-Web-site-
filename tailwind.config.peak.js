@@ -23,7 +23,7 @@ module.exports = {
         yellow: colors.amber,
         // Success styling colors.
         green: colors.green,
-         'title' : '#45dfd0' , 
+        'title' : '#45dfd0' , 
         'colortitle' :'#071110',
         'navColor': '#006674',
         'backgroundBody':'#123C53', 
@@ -35,9 +35,9 @@ module.exports = {
         'degree#006674' : '#006674' ,
         'degree#006674' :'#006674' , 
         'servecesBackground' : '#55C6D2' ,
-         'serveseCard' : ' #49938b ' ,
-         'TestColor' :'#C0E6EE' ,
-          'errorPage' : '#57b1a5', 
+        'serveseCard' : ' #49938b ' ,
+        'TestColor' :'#C0E6EE' ,
+        'errorPage' : '#57b1a5', 
         
       },
       spacing: {
