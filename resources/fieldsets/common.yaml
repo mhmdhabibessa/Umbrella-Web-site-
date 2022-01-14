@@ -13,14 +13,14 @@ fields:
       listable: hidden
       display: Image
   -
-      handle: entry
-      field:
-        max_items: 1
-        mode: default
-        type: entries
-        localizable: true
-        listable: false
-        display: Entry
+    handle: entry
+    field:
+      max_items: 1
+      mode: default
+      type: entries
+      localizable: true
+      listable: false
+      display: Entry
   -
     handle: text_rich
     field:
@@ -90,3 +90,20 @@ fields:
       default: md
       listable: hidden
       display: Size
+  -
+    handle: heading_selector
+    field:
+      options:
+        h1: h1
+        h2: h2
+        h3: h3
+        h4: h4
+        h5: h5
+        h6: h6
+      display: 'Heading Selector'
+      type: button_group
+      icon: button_group
+      listable: hidden
+      instructions_position: above
+      validate:
+        - required

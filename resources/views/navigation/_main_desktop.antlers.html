@@ -72,6 +72,13 @@
                 {{ /if }}
             </li>
         {{ /nav:main }}
+        {{ if contact:contact_whatsapp }}
+        <li>
+            <a href="https://api.whatsapp.com/send?phone={{ contact:contact_whatsapp }}">
+                <i class="text-green-500 fab fa-whatsapp fa-2x"></i>
+            </a>
+        </li>
+        {{ /if }}
     </ul>
 </nav>
 <!-- End: /navigation/_main_desktop.antlers.html -->

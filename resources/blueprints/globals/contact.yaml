@@ -1,0 +1,77 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: contact_number
+        field:
+          input_type: text
+          antlers: false
+          display: 'Contact Number'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: contact_email
+        field:
+          input_type: text
+          antlers: false
+          display: 'Contact Email'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+            - email
+      -
+        handle: contact_whatsapp
+        field:
+          input_type: text
+          antlers: false
+          display: 'Contact Whatsapp'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+            - 'starts_with:9715'
+      -
+        handle: business_days
+        field:
+          input_type: text
+          antlers: false
+          display: 'Business Days'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: business_hours
+        field:
+          input_type: text
+          antlers: false
+          display: 'Business Hours'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: business_address
+        field:
+          antlers: false
+          display: 'Business Address'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
