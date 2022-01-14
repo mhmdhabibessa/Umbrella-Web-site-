@@ -11,24 +11,15 @@
 
     <div class="sm:w-2/5 flex flex-col items-center sm:items-start text-center sm:text-left">
         <h1 class="text-6xl text-title  leading-none tracking-wide mb-4">Umbrella</h1>
-
-
-       
-
             
                 {{partial:typography/paragraph :content="paragraph" color="text-TestColor" }}
-    
-                
-        
-        
+       
     </div>
     
-
-        <div class="mb-16 sm:mb-0 mt-8 sm:mt-0    sm:w-3/5 sm:pl-12">
-            <img class="rounded-full" src="{{image}}" alt="">
-            
-            
-            
+        <div class="mb-16 sm:mb-0 mt-8 sm:mt-0  sm:w-3/5 sm:pl-12">
+           
+            {{partial:components/picture  class="rounded-full" :image="assets"   }}
+        
         </div>
         
     
