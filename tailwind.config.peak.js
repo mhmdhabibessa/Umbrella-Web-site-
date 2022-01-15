@@ -38,6 +38,7 @@ module.exports = {
         'serveseCard' : ' #49938b ' ,
         'TestColor' :'#C0E6EE' ,
         'errorPage' : '#57b1a5', 
+        'whatsUpBackground' : '4dc247',
         
       },
       spacing: {
